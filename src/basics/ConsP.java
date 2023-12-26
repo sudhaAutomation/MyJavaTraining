@@ -7,6 +7,7 @@ public class ConsP {
 
 	ConsP(int i) {
 		this(1, true);
+		//parent default cons
 		System.out.println("parent 1 argument constructor " + i);
 	}
 
