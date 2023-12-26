@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34047" started-at="2023-12-19T07:23:05Z" finished-at="2023-12-19T07:23:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34047" started-at="2023-12-19T07:23:05Z" finished-at="2023-12-19T07:23:39Z">
+      <class name="testNGp.GuruLoginWithDataProvider">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="setUp" is-config="true" duration-ms="7848" started-at="2023-12-19T12:53:06Z" finished-at="2023-12-19T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="login" duration-ms="1819" started-at="2023-12-19T12:53:14Z" data-provider="testData" finished-at="2023-12-19T12:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr543366]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tYbEnUj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="afterMethod" is-config="true" duration-ms="507" started-at="2023-12-19T12:53:16Z" finished-at="2023-12-19T12:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="setUp" is-config="true" duration-ms="5989" started-at="2023-12-19T12:53:17Z" finished-at="2023-12-19T12:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="login" duration-ms="842" started-at="2023-12-19T12:53:23Z" data-provider="testData" finished-at="2023-12-19T12:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tYbEnUj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="afterMethod" is-config="true" duration-ms="355" started-at="2023-12-19T12:53:23Z" finished-at="2023-12-19T12:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="setUp" is-config="true" duration-ms="6636" started-at="2023-12-19T12:53:24Z" finished-at="2023-12-19T12:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="login" duration-ms="707" started-at="2023-12-19T12:53:30Z" data-provider="testData" finished-at="2023-12-19T12:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr543366]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="afterMethod" is-config="true" duration-ms="325" started-at="2023-12-19T12:53:31Z" finished-at="2023-12-19T12:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="setUp" is-config="true" duration-ms="6664" started-at="2023-12-19T12:53:32Z" finished-at="2023-12-19T12:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="login" duration-ms="782" started-at="2023-12-19T12:53:38Z" data-provider="testData" finished-at="2023-12-19T12:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGp.GuruLoginWithDataProvider@3834d63f]" name="afterMethod" is-config="true" duration-ms="280" started-at="2023-12-19T12:53:39Z" finished-at="2023-12-19T12:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGp.GuruLoginWithDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [guru99Demo Site]">
+  <parameter name="password" value="tYbEnUj"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="userId" value="mngr543366"/>
+  <parameter name="url" value="https://www.demo.guru99.com/V4/"/>
+  <test name="Smoke Testing">
+    <parameter name="password" value="tYbEnUj"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userId" value="mngr543366"/>
+    <parameter name="url" value="https://www.demo.guru99.com/V4/"/>
+    <classes>
+      <class name="testNGp.TestNgParameters"/>
+      <class name="testNGp.GuruLoginWithDataProvider"/>
+      <class name="testNGp.LoginFE"/>
+    </classes>
+  </test> <!-- Smoke Testing -->
+</suite> <!-- Failed suite [guru99Demo Site] -->

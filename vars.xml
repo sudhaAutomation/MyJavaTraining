@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="guru99Demo Site">
+<test name="Smoke Testing">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="https://www.demo.guru99.com/V4/"/>
+<parameter name="userId" value="mngr543366"/>
+<parameter name="password" value="tYbEnUj"/>
+<classes>
+<class name="testNGp.TestNgParameters"></class>
+<class name="testNGp.GuruLoginWithDataProvider"/>
+<class name="testNGp.LoginFE"></class>
+
+</classes>
+</test>
+</suite>
