@@ -12,6 +12,7 @@ public class ConsP {
 	}
 
 	ConsP(int i, boolean b) {
+		//parent 2 paramaeters constructor
 		this();
 		System.out.println("parent 2 argumnets constructor " + i + " " + b);
 	}
