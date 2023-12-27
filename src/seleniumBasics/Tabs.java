@@ -28,7 +28,7 @@ public class Tabs {
 		for (String ul : urls) {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.open('" + ul + "')");
-			
+			//handlers.add(driver.getWindowHandle());
 		}
 
 		driver.switchTo().window(handlers.get(3));
